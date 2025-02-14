@@ -1,0 +1,138 @@
+/* Home Page */
+
+.home {
+    width: 100%;
+}
+
+.home-container {
+    background: var(--grayish-white);
+}
+
+/* Header  */
+
+.header {
+    position: absolute;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.order-now-button {
+    background:#000000;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+/* Banner */
+
+.banner-container {
+    padding-top: calc(125px + 1rem);
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.banner-description-container {
+    width: 440px;
+}
+
+.banner-image {
+    height: 410px;
+    width: 440px;   
+}
+
+/* Signature Dishes */
+
+.signature-dishes-container {
+    background: #efE9db;
+    color:#000000;
+}
+
+.signature-dishes {
+    padding: 4rem 2rem;
+}
+
+.signature-dishes-list {
+    width: 100%;
+}
+
+.menu-item-container {
+    position: relative;
+    align-items: end;
+    height: 380px;
+    width: 280px;
+    padding: 2rem;
+    background: white;
+}
+
+.menu-item-image {
+    position: absolute;
+    top: -75px;
+    height: 170px;
+    width: 170px;
+}
+
+.menu-item-description {
+    min-height: 86.4px;
+}
+
+.menu-items-action-container {
+    width: 100%;
+    color: var(--dgreen);
+}
+
+.add-to-cart-button {
+    padding: 0.5rem 2rem;
+    background: var(--lgreen);
+}
+
+.view-full-menu-button {
+    padding: 1rem;
+    background: var(--dgreen);
+    color: white;
+}
+
+
+/* About Us */
+
+.about-us-container {
+    background: var(--grayish-white);
+}
+
+.about-us {
+    padding: 4rem 2rem;
+}
+
+.about-us-image {
+    height:300px;
+    width: 300px;
+}
+
+.about-us-description-container {
+    width: 540px;
+    text-align: justify;
+}
+
+/* Footer */
+
+.footer-container {
+    background: var(--black);
+}
+
+.footer {
+    padding: 2rem;
+    color: white;
+}
+
+.footer-contact-svg-container {
+    height: 40px;
+    width: 40px;
+    background: #000000;
+    border-radius: 40px;
+}
+
+.footer-attribution-container, .footer-membership-container {
+    width: 270px;
+}
+
+.attribution-list-text {
+    margin-bottom: 1rem;
+}
